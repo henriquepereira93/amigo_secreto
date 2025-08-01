@@ -11,10 +11,15 @@ function adicionarAmigo(){
 }
 
 function validarEntrada(){
-    if(nomeAmigo === ''){
+    if(amigos == ''){
         alert('Insira um nome por gentileza');
-        return;
     }
+}
+
+function sortearAmigo(){
+    let nomeSorteado = document.querySelector('button-draw');
+    let amigoSorteado = amigos[Math.floor(Math.random() * amigos.length)];
+    console.log(`${amigoSorteado}`);
 }
 
 function inserirAmigosNaLista(){
@@ -28,6 +33,7 @@ function inserirAmigosNaLista(){
     });
 
 }
+
 
 function limparCampoAmigo(){
     nomeAmigo = document.querySelector('input');
