@@ -18,8 +18,10 @@ function validarEntrada(){
 
 function sortearAmigo(){
     let nomeSorteado = document.querySelector('button-draw');
-    let amigoSorteado = amigos[Math.floor(Math.random() * amigos.length)];
-    console.log(`${amigoSorteado}`);
+    nomeSorteado = amigos[Math.floor(Math.random() * amigos.length)];
+    let mensagemSorteado= document.getElementById('resultado');
+    mensagemSorteado.textContent = `O nome sorteado foi: ${nomeSorteado}`;
+    validarEntrada();
 }
 
 function inserirAmigosNaLista(){
