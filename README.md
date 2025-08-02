@@ -1,4 +1,4 @@
-🚧Desafio do amigo secreto 🚧 
+# 🚧Desafio do amigo secreto 🚧 
 
 A proposta do código é realizar um sorteio de nomes digitados pelo usuário, 
 guardando-os em uma lista e indicando quem foi o ganhador do sorteio através de um botão.
