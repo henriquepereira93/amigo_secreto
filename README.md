@@ -24,3 +24,4 @@ guardando-os em uma lista e indicando quem foi o ganhador do sorteio através de
 * Enviar mensagens na página se o array estiver sem valores e/ou os botões para adicionar/sortear forem pressionados.
 
 # 👷‍♂️ Autor 👷‍♂️
+https://github.com/henriquepereira93
